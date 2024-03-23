@@ -1,5 +1,8 @@
 package com.normalone.tutorialmod;
 
+import com.normalone.tutorialmod.block.ModBlocks;
+import com.normalone.tutorialmod.item.ModItemGroups;
+import com.normalone.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerBlocks();
 	}
 }
