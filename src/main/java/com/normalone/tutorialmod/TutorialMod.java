@@ -3,6 +3,7 @@ package com.normalone.tutorialmod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.ModItemGroups;
 import com.normalone.tutorialmod.item.ModItems;
+import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -18,6 +19,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerBlocks();
+		ModLootTableModifiers.modifyLootTables();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
