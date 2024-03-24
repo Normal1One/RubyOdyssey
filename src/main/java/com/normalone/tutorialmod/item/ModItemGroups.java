@@ -40,6 +40,12 @@ public class ModItemGroups {
                     entries.add(ModBlocks.RUBY_WALL);
                     entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
 
+                    entries.add(ModItems.RUBY_PICKAXE);
+                    entries.add(ModItems.RUBY_AXE);
+                    entries.add(ModItems.RUBY_SHOVEL);
+                    entries.add(ModItems.RUBY_HOE);
+                    entries.add(ModItems.RUBY_SWORD);
+
                     entries.add(ModBlocks.RUBY_ORE);
                     entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                     entries.add(ModBlocks.NETHER_RUBY_ORE);
