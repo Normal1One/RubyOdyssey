@@ -1,6 +1,7 @@
 package com.normalone.tutorialmod.item;
 
 import com.normalone.tutorialmod.TutorialMod;
+import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.custom.MetalDetectorItem;
 import com.normalone.tutorialmod.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -39,6 +40,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
