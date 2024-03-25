@@ -47,6 +47,8 @@
 
   "block.tutorialmod.sound_block": "Sound Block",
 
+  "sounds.tutorialmod.metal_detector_found_ore": "Metal Detector Jingle",
+
   "entity.minecraft.villager.sound_master": "Soundmaster",
 
   "itemgroup.ruby": "Ruby Example Group"

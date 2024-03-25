@@ -3,6 +3,7 @@ package com.normalone.tutorialmod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.ModItemGroups;
 import com.normalone.tutorialmod.item.ModItems;
+import com.normalone.tutorialmod.sound.ModSounds;
 import com.normalone.tutorialmod.util.ModCustomTrades;
 import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import com.normalone.tutorialmod.villager.ModVillagers;
@@ -24,6 +25,7 @@ public class TutorialMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
+		ModSounds.registerSounds();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}
 }
