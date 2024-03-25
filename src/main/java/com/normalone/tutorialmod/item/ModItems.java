@@ -4,6 +4,7 @@ import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.custom.MetalDetectorItem;
 import com.normalone.tutorialmod.item.custom.ModArmorItem;
+import com.normalone.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -47,6 +48,9 @@ public class ModItems {
     public static final Item CORN = registerItem("corn", new Item(new FabricItemSettings()));
     public static final Item CORN_SEEDS = registerItem("corn_seeds",
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

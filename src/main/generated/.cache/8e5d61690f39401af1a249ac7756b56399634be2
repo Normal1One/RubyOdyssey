@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-25T13:26:24.888237	TutorialMod/Model Definitions
+// 1.20.4	2024-03-25T13:57:25.300647	TutorialMod/Model Definitions
 6e0c6b69a0d669e68369e8dca03a41dab0116274 assets/tutorialmod/models/item/ruby_chestplate_lapis_trim.json
 69472e92e856588e8091eb6e44129489e646c19e assets/tutorialmod/blockstates/ruby_slab.json
 8a6a11b0ab43cad6ba08918b85e20a987ebd08f3 assets/tutorialmod/models/item/ruby_helmet.json
@@ -111,6 +111,7 @@ c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets/tutorialmod/models/item/ruby_boo
 8a4ea8978f18d5b07ab7d2093effbf9801c35e91 assets/tutorialmod/models/item/ruby_helmet_emerald_trim.json
 6126e26da373f9113d9e9be875b14a0d13857444 assets/tutorialmod/models/item/corn.json
 a743381d7382b871f961ede3637b21dd7322ef0d assets/tutorialmod/models/item/tomato.json
+f746b64540daf2ab6302b3ec01a78490c48fc10b assets/tutorialmod/models/item/bar_brawl_music_disc.json
 7e74bbc43eb93672294e79a3d5585b3e8acc08f2 assets/tutorialmod/models/item/ruby_sword.json
 c814633148ab07a7934cdcd61f8a0792607a45b4 assets/tutorialmod/models/block/ruby_pressure_plate_down.json
 ab6d5bb86c6522fa3c42035f2a988d0cad069186 assets/tutorialmod/blockstates/ruby_door.json

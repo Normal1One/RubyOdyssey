@@ -37,6 +37,8 @@ public class ModItemGroups {
 
                     entries.add(ModBlocks.DAHLIA);
 
+                    entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
                     entries.add(ModBlocks.RUBY_STAIRS);
                     entries.add(ModBlocks.RUBY_SLAB);
                     entries.add(ModBlocks.RUBY_FENCE);
