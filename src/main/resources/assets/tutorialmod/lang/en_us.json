@@ -47,5 +47,7 @@
 
   "block.tutorialmod.sound_block": "Sound Block",
 
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
   "itemgroup.ruby": "Ruby Example Group"
 }
