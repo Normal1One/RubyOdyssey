@@ -6,7 +6,6 @@ import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.Entity;
 import net.minecraft.util.math.MathHelper;
 
 public class PorcupineModel<T extends PorcupineEntity> extends SinglePartEntityModel<T> {
@@ -163,6 +162,7 @@ public class PorcupineModel<T extends PorcupineEntity> extends SinglePartEntityM
 
 		this.animateMovement(ModAnimations.PORCUPINE_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
 		this.updateAnimation(entity.idleAnimationState, ModAnimations.PORCUPINE_IDLE, ageInTicks, 1);
+		this.updateAnimation(entity.attackAnimationState, ModAnimations.PORCUPINE_ATTACK, ageInTicks, 1);
 	}
 
 	private void setHeadAngles(float headYaw, float headPitch) {

@@ -67,9 +67,11 @@ public class ModBlocks {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
     }
+
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
     }
+
     public static void registerBlocks() {
         TutorialMod.LOGGER.info("Registering ModBlocks for " + TutorialMod.MOD_ID);
     }

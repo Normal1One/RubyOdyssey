@@ -27,7 +27,6 @@ public class CornCropBlock extends CropBlock {
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 16.0),
             Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 16.0, 16.0)};
 
-
     public static final IntProperty AGE = IntProperty.of("age", 0, 8);
 
     public CornCropBlock(Settings settings) {

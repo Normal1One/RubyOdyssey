@@ -1,6 +1,5 @@
 package com.normalone.tutorialmod.datagen;
 
-import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.block.custom.CornCropBlock;
 import com.normalone.tutorialmod.block.custom.TomatoCropBlock;
