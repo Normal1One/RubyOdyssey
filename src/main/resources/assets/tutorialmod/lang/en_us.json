@@ -47,6 +47,11 @@
   "block.tutorialmod.chestnut_planks": "Chestnut Planks",
   "block.tutorialmod.chestnut_leaves": "Chestnut Leaves",
 
+  "block.tutorialmod.chestnut_sign": "Chestnut Sign",
+  "block.tutorialmod.chestnut_hanging_sign": "Chestnut Hanging Sign",
+  "block.tutorialmod.chestnut_wall_sign": "Chestnut Wall Sign",
+  "block.tutorialmod.chestnut_wall_hanging_sign": "Chestnut Wall Hanging Sign",
+
   "block.tutorialmod.ruby_ore": "Ruby Ore",
   "block.tutorialmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",

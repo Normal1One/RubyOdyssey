@@ -52,7 +52,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CHESTNUT_LOG).log(ModBlocks.STRIPPED_CHESTNUT_LOG).wood(ModBlocks.STRIPPED_CHESTNUT_WOOD);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_LEAVES);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_PLANKS);
+
+        BlockStateModelGenerator.BlockTexturePool chestnutPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CHESTNUT_PLANKS);
+        chestnutPool.family(ModBlocks.CHESTNUT_FAMILY);
     }
 
     @Override
@@ -65,6 +67,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CHESTNUT_HANGING_SIGN, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
 

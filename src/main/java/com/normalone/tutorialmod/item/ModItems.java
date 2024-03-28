@@ -56,6 +56,11 @@ public class ModItems {
     public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
             new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
+    public static final Item CHESTNUT_SIGN = registerItem("chestnut_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.CHESTNUT_SIGN, ModBlocks.CHESTNUT_WALL_SIGN));
+    public static final Item CHESTNUT_HANGING_SIGN = registerItem("chestnut_hanging_sign",
+            new HangingSignItem(ModBlocks.CHESTNUT_HANGING_SIGN, ModBlocks.CHESTNUT_WALL_HANGING_SIGN, new FabricItemSettings().maxCount(16)));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);

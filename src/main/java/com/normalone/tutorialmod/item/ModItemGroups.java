@@ -60,6 +60,9 @@ public class ModItemGroups {
                     entries.add(ModBlocks.CHESTNUT_PLANKS);
                     entries.add(ModBlocks.CHESTNUT_LEAVES);
 
+                    entries.add(ModBlocks.CHESTNUT_SIGN);
+                    entries.add(ModBlocks.CHESTNUT_HANGING_SIGN);
+
                     entries.add(ModItems.RUBY_PICKAXE);
                     entries.add(ModItems.RUBY_AXE);
                     entries.add(ModItems.RUBY_SHOVEL);
