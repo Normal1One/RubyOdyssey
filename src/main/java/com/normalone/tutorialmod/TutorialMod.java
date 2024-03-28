@@ -6,6 +6,7 @@ import com.normalone.tutorialmod.entity.ModEntities;
 import com.normalone.tutorialmod.entity.custom.PorcupineEntity;
 import com.normalone.tutorialmod.item.ModItemGroups;
 import com.normalone.tutorialmod.item.ModItems;
+import com.normalone.tutorialmod.recipe.ModRecipes;
 import com.normalone.tutorialmod.screen.ModScreenHandlers;
 import com.normalone.tutorialmod.sound.ModSounds;
 import com.normalone.tutorialmod.util.ModCustomTrades;
@@ -34,6 +35,8 @@ public class TutorialMod implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
+		ModRecipes.registerRecipes();
+
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
