@@ -1,6 +1,8 @@
 package com.normalone.tutorialmod;
 
 import com.normalone.tutorialmod.block.ModBlocks;
+import com.normalone.tutorialmod.entity.ModEntities;
+import com.normalone.tutorialmod.entity.custom.PorcupineEntity;
 import com.normalone.tutorialmod.item.ModItemGroups;
 import com.normalone.tutorialmod.item.ModItems;
 import com.normalone.tutorialmod.sound.ModSounds;
@@ -9,6 +11,7 @@ import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import com.normalone.tutorialmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +29,8 @@ public class TutorialMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
 		ModSounds.registerSounds();
+		ModEntities.registerModEntities();
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
+		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}
 }
