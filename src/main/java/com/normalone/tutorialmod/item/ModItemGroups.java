@@ -53,6 +53,13 @@ public class ModItemGroups {
                     entries.add(ModBlocks.RUBY_WALL);
                     entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
 
+                    entries.add(ModBlocks.CHESTNUT_LOG);
+                    entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
+                    entries.add(ModBlocks.CHESTNUT_WOOD);
+                    entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+                    entries.add(ModBlocks.CHESTNUT_PLANKS);
+                    entries.add(ModBlocks.CHESTNUT_LEAVES);
+
                     entries.add(ModItems.RUBY_PICKAXE);
                     entries.add(ModItems.RUBY_AXE);
                     entries.add(ModItems.RUBY_SHOVEL);

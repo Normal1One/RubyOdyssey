@@ -45,6 +45,14 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_WALL);
         addDrop(ModBlocks.RUBY_TRAPDOOR);
 
+        addDrop(ModBlocks.CHESTNUT_WOOD);
+        addDrop(ModBlocks.CHESTNUT_LOG);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+        addDrop(ModBlocks.STRIPPED_CHESTNUT_LOG);
+        addDrop(ModBlocks.CHESTNUT_PLANKS);
+
+        addDrop(ModBlocks.CHESTNUT_LEAVES, leavesDrops(ModBlocks.CHESTNUT_LEAVES, ModBlocks.RUBY_SLAB, 0.0025f)); //TODO
+
         addDrop(ModBlocks.DAHLIA);
         addPottedPlantDrops(ModBlocks.POTTED_DAHLIA);
 

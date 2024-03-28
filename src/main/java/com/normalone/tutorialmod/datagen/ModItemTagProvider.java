@@ -1,5 +1,6 @@
 package com.normalone.tutorialmod.datagen;
 
+import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -20,5 +21,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.CHESTNUT_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.CHESTNUT_LOG.asItem())
+                .add(ModBlocks.CHESTNUT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_WOOD.asItem());
     }
 }
