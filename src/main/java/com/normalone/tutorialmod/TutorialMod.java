@@ -2,6 +2,7 @@ package com.normalone.tutorialmod;
 
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.block.entity.ModBlockEntities;
+import com.normalone.tutorialmod.entity.ModBoats;
 import com.normalone.tutorialmod.entity.ModEntities;
 import com.normalone.tutorialmod.entity.custom.PorcupineEntity;
 import com.normalone.tutorialmod.item.ModItemGroups;
@@ -12,6 +13,7 @@ import com.normalone.tutorialmod.sound.ModSounds;
 import com.normalone.tutorialmod.util.ModCustomTrades;
 import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import com.normalone.tutorialmod.villager.ModVillagers;
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -38,6 +40,7 @@ public class TutorialMod implements ModInitializer {
 		ModBlockEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
 		ModRecipes.registerRecipes();
+		ModBoats.registerBoats();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());

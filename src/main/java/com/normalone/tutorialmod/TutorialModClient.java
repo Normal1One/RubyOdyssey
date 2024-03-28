@@ -3,12 +3,14 @@ package com.normalone.tutorialmod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.block.entity.ModBlockEntities;
 import com.normalone.tutorialmod.block.entity.renderer.GemPolishingBlockEntityRenderer;
+import com.normalone.tutorialmod.entity.ModBoats;
 import com.normalone.tutorialmod.entity.ModEntities;
 import com.normalone.tutorialmod.entity.client.ModModelLayers;
 import com.normalone.tutorialmod.entity.client.PorcupineModel;
 import com.normalone.tutorialmod.entity.client.PorcupineRenderer;
 import com.normalone.tutorialmod.screen.GemPolishingScreen;
 import com.normalone.tutorialmod.screen.ModScreenHandlers;
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import com.terraformersmc.terraform.sign.SpriteIdentifierRegistry;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -43,5 +45,7 @@ public class TutorialModClient implements ClientModInitializer {
 
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CHESTNUT_SIGN_TEXTURE));
         SpriteIdentifierRegistry.INSTANCE.addIdentifier(new SpriteIdentifier(TexturedRenderLayers.SIGNS_ATLAS_TEXTURE, ModBlocks.CHESTNUT_HANGING_SIGN_TEXTURE));
+
+        TerraformBoatClientHelper.registerModelLayers(ModBoats.CHESTNUT_BOAT_ID, false);
     }
 }

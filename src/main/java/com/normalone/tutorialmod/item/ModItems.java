@@ -2,10 +2,12 @@ package com.normalone.tutorialmod.item;
 
 import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
+import com.normalone.tutorialmod.entity.ModBoats;
 import com.normalone.tutorialmod.entity.ModEntities;
 import com.normalone.tutorialmod.item.custom.MetalDetectorItem;
 import com.normalone.tutorialmod.item.custom.ModArmorItem;
 import com.normalone.tutorialmod.sound.ModSounds;
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -60,6 +62,11 @@ public class ModItems {
             new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.CHESTNUT_SIGN, ModBlocks.CHESTNUT_WALL_SIGN));
     public static final Item CHESTNUT_HANGING_SIGN = registerItem("chestnut_hanging_sign",
             new HangingSignItem(ModBlocks.CHESTNUT_HANGING_SIGN, ModBlocks.CHESTNUT_WALL_HANGING_SIGN, new FabricItemSettings().maxCount(16)));
+
+    public static final Item CHESTNUT_BOAT = TerraformBoatItemHelper.registerBoatItem(
+            ModBoats.CHESTNUT_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, false);
+    public static final Item CHESTNUT_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(
+            ModBoats.CHESTNUT_CHEST_BOAT_ID, ModBoats.CHESTNUT_BOAT_KEY, true);
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
