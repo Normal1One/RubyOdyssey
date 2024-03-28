@@ -2,6 +2,7 @@ package com.normalone.tutorialmod.block;
 
 import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.custom.CornCropBlock;
+import com.normalone.tutorialmod.block.custom.GemPolishingStationBlock;
 import com.normalone.tutorialmod.block.custom.SoundBlock;
 import com.normalone.tutorialmod.block.custom.TomatoCropBlock;
 import com.normalone.tutorialmod.sound.ModSounds;
@@ -43,6 +44,9 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), FabricBlockSettings.copyOf(Blocks.STONE).strength(2f)));
