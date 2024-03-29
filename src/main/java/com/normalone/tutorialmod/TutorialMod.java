@@ -14,8 +14,8 @@ import com.normalone.tutorialmod.util.ModCustomTrades;
 import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import com.normalone.tutorialmod.villager.ModVillagers;
 import com.normalone.tutorialmod.world.gen.ModWorldGeneration;
+import com.normalone.tutorialmod.world.tree.ModFoliagePlacerTypes;
 import com.normalone.tutorialmod.world.tree.ModTrunkPlacerTypes;
-import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -45,6 +45,7 @@ public class TutorialMod implements ModInitializer {
 		ModBoats.registerBoats();
 		ModWorldGeneration.generateModWorldGen();
 		ModTrunkPlacerTypes.register();
+		ModFoliagePlacerTypes.register();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
