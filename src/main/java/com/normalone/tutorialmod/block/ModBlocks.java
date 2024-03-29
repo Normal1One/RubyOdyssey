@@ -1,10 +1,7 @@
 package com.normalone.tutorialmod.block;
 
 import com.normalone.tutorialmod.TutorialMod;
-import com.normalone.tutorialmod.block.custom.CornCropBlock;
-import com.normalone.tutorialmod.block.custom.GemPolishingStationBlock;
-import com.normalone.tutorialmod.block.custom.SoundBlock;
-import com.normalone.tutorialmod.block.custom.TomatoCropBlock;
+import com.normalone.tutorialmod.block.custom.*;
 import com.normalone.tutorialmod.sound.ModSounds;
 import com.terraformersmc.terraform.sign.block.TerraformHangingSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
@@ -86,6 +83,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
+
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "dice_block"),
+            new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     public static final Identifier CHESTNUT_SIGN_TEXTURE = new Identifier(TutorialMod.MOD_ID, "entity/signs/chestnut");
     public static final Identifier CHESTNUT_HANGING_SIGN_TEXTURE = new Identifier(TutorialMod.MOD_ID, "entity/signs/hanging/chestnut");

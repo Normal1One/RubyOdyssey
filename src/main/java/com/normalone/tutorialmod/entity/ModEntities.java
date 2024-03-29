@@ -1,6 +1,7 @@
 package com.normalone.tutorialmod.entity;
 
 import com.normalone.tutorialmod.TutorialMod;
+import com.normalone.tutorialmod.entity.custom.DiceProjectileEntity;
 import com.normalone.tutorialmod.entity.custom.PorcupineEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
@@ -15,6 +16,11 @@ public class ModEntities {
             new Identifier(TutorialMod.MOD_ID, "porcupine"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, PorcupineEntity::new)
                     .dimensions(EntityDimensions.fixed(1f, 1f)).build());
+
+    public static final EntityType<DiceProjectileEntity> DICE_PROJECTILE = Registry.register(Registries.ENTITY_TYPE,
+            new Identifier(TutorialMod.MOD_ID, "dice_projectile"),
+            FabricEntityTypeBuilder.<DiceProjectileEntity>create(SpawnGroup.MISC,DiceProjectileEntity::new)
+                    .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
 
     public static void registerModEntities() {
         TutorialMod.LOGGER.info("Registering Entities for " + TutorialMod.MOD_ID);
