@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-29T12:41:49.503812	TutorialMod/Model Definitions
+// 1.20.4	2024-03-29T12:59:45.266211	TutorialMod/Model Definitions
 c530c1aabb34f764c985110f40b263d8e40e1b25 assets/tutorialmod/models/item/ruby_chestplate_diamond_trim.json
 912c4b0026d1d6329296924e87f360af3228e2e8 assets/tutorialmod/models/block/stripped_chestnut_log_horizontal.json
 5bf98fb36ec60875d15001dc811ad89892306bfe assets/tutorialmod/models/block/ruby_door_bottom_right_open.json
@@ -22,8 +22,8 @@ c0b0701701bb884e5b960972b7a75ff2a91f5632 assets/tutorialmod/models/item/ruby_leg
 144fe686b3332dfe33b9fc4d453c40becc89f284 assets/tutorialmod/models/item/chestnut_hanging_sign.json
 a2d5983cad7a3013cfed63e65fba36ce76160c3e assets/tutorialmod/models/block/ruby_button.json
 a3afdbdc2d5bc2b6615dfde9596d1eeeb3dc4564 assets/tutorialmod/models/item/ruby_block.json
-507446914d6fc53659edb46c183ef743a6cf528d assets/tutorialmod/blockstates/chestnut_log.json
 ff720ea0aea021144b8557786f6e7f9dead2fd78 assets/tutorialmod/blockstates/gem_polishing_station.json
+507446914d6fc53659edb46c183ef743a6cf528d assets/tutorialmod/blockstates/chestnut_log.json
 008c25dc48bd67c1342548147ad67b76944e91be assets/tutorialmod/models/block/stripped_chestnut_log.json
 27975c894c8828b1eab240b67ed36945e08e4f97 assets/tutorialmod/models/block/ruby_stairs_outer.json
 2c6de06c9cc0d278a564bf49b173aafb98a520a9 assets/tutorialmod/models/item/ruby_helmet_diamond_trim.json
@@ -150,8 +150,8 @@ ec1c1d5bd7b270b50e86e09323a0d65093ef25c2 assets/tutorialmod/models/item/chestnut
 1cac72dfcf0953756533a59048855cf9639b0f27 assets/tutorialmod/models/block/ruby_button_pressed.json
 6032bba4e75d7969e8307fa8a8d0a4a014da1ac1 assets/tutorialmod/models/item/ruby_leggings_redstone_trim.json
 f643f34a95274bef6bc781b8ba22b1969ff252e5 assets/tutorialmod/models/item/ruby_helmet_lapis_trim.json
-05f4e35e2dae88c1fb1c452d4c47ed12931e0ee8 assets/tutorialmod/models/block/ruby_pressure_plate.json
 6e6bdd498115cf24d2c74667b608b6cebfb12a37 assets/tutorialmod/blockstates/ruby_stairs.json
+05f4e35e2dae88c1fb1c452d4c47ed12931e0ee8 assets/tutorialmod/models/block/ruby_pressure_plate.json
 af912ab04408cfd43950413429080cbbfb4166ec assets/tutorialmod/models/item/ruby_leggings_lapis_trim.json
 d265fc031081fa3e6544db97d53afd58d746ef33 assets/tutorialmod/models/block/ruby_block.json
 dac8730911a1737e4cdd2e70cfc8d32b0b0ba457 assets/tutorialmod/models/block/sound_block.json

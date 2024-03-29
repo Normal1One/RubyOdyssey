@@ -2,6 +2,7 @@ package com.normalone.tutorialmod.world;
 
 import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
+import com.normalone.tutorialmod.world.tree.custom.ChestnutTrunkPlacer;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -48,9 +49,11 @@ public class ModConfiguredFeatures {
         register(context, END_RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(endRubyOres, 12));
 
         register(context, CHESTNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
-                BlockStateProvider.of(ModBlocks.CHESTNUT_LOG), new StraightTrunkPlacer(5, 4, 3),
-                BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES), new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
-                        new TwoLayersFeatureSize(1, 0, 2)).build());
+                BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
+                new ChestnutTrunkPlacer(5, 4, 3),
+                BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {
