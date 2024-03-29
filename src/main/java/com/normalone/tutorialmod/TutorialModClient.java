@@ -8,6 +8,7 @@ import com.normalone.tutorialmod.entity.ModEntities;
 import com.normalone.tutorialmod.entity.client.ModModelLayers;
 import com.normalone.tutorialmod.entity.client.PorcupineModel;
 import com.normalone.tutorialmod.entity.client.PorcupineRenderer;
+import com.normalone.tutorialmod.item.ModItems;
 import com.normalone.tutorialmod.screen.GemPolishingScreen;
 import com.normalone.tutorialmod.screen.ModScreenHandlers;
 import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
@@ -16,12 +17,14 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.client.util.SpriteIdentifier;
+import net.minecraft.util.Identifier;
 
 public class TutorialModClient implements ClientModInitializer {
     @Override
@@ -52,5 +55,12 @@ public class TutorialModClient implements ClientModInitializer {
         TerraformBoatClientHelper.registerModelLayers(ModBoats.CHESTNUT_BOAT_ID, false);
 
         EntityRendererRegistry.register(ModEntities.DICE_PROJECTILE, FlyingItemEntityRenderer::new);
+
+        CustomPortalBuilder.beginPortal()
+                .frameBlock(ModBlocks.RUBY_BLOCK)
+                .lightWithItem(ModItems.CORN)
+                .destDimID(new Identifier(TutorialMod.MOD_ID, "normalonedim"))
+                .tintColor(0xc76efa)
+                .registerPortal();
     }
 }
