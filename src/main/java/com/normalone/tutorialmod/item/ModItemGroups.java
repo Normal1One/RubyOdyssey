@@ -59,6 +59,7 @@ public class ModItemGroups {
                     entries.add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
                     entries.add(ModBlocks.CHESTNUT_PLANKS);
                     entries.add(ModBlocks.CHESTNUT_LEAVES);
+                    entries.add(ModBlocks.CHESTNUT_SAPLING);
 
                     entries.add(ModItems.CHESTNUT_SIGN);
                     entries.add(ModItems.CHESTNUT_HANGING_SIGN);

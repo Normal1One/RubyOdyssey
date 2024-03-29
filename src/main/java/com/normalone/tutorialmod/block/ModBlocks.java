@@ -3,6 +3,7 @@ package com.normalone.tutorialmod.block;
 import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.custom.*;
 import com.normalone.tutorialmod.sound.ModSounds;
+import com.normalone.tutorialmod.world.tree.ModSaplingGenerators;
 import com.terraformersmc.terraform.sign.block.TerraformHangingSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
 import com.terraformersmc.terraform.sign.block.TerraformWallHangingSignBlock;
@@ -78,6 +79,9 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
     public static final Block STRIPPED_CHESTNUT_WOOD = registerBlock("stripped_chestnut_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+
+    public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
+            new SaplingBlock(ModSaplingGenerators.CHESTNUT, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
     public static final Block CHESTNUT_PLANKS = registerBlock("chestnut_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
