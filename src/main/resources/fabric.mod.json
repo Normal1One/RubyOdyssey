@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"com.normalone.tutorialmod.compat.TutorialModREIClientPlugin"
+		],
+		"terrablender": [
+			"com.normalone.tutorialmod.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
