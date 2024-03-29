@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-29T12:32:00.244443	TutorialMod/Block Loot Tables
+// 1.20.4	2024-03-29T12:41:49.505874	TutorialMod/Block Loot Tables
 a77a150c7851fbaf830081a89b0e3371ad62225d data/tutorialmod/loot_tables/blocks/ruby_fence_gate.json
 7aa7decec75c884a168a193b073d9dbce7e37408 data/tutorialmod/loot_tables/blocks/ruby_trapdoor.json
 865399c15f94da491a91fa8bc983868706016198 data/tutorialmod/loot_tables/blocks/ruby_wall.json
@@ -15,8 +15,8 @@ a037b1a8ca349202b6cee6a612fafcebb8480fb0 data/tutorialmod/loot_tables/blocks/che
 687f631f91b0e987dfd695cafb332313d44b8539 data/tutorialmod/loot_tables/blocks/chestnut_leaves.json
 b3340c719a7e5b717cd9ccf26d03d2932423aeff data/tutorialmod/loot_tables/blocks/chestnut_wood.json
 e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data/tutorialmod/loot_tables/blocks/ruby_block.json
-10efab6566ae1503d35bf6302a55b1e7203fa2e6 data/tutorialmod/loot_tables/blocks/ruby_fence.json
 0206435597cd005f1d3c39c0aff4cdd540ece9a7 data/tutorialmod/loot_tables/blocks/chestnut_planks.json
+10efab6566ae1503d35bf6302a55b1e7203fa2e6 data/tutorialmod/loot_tables/blocks/ruby_fence.json
 681956b5e18f7d1d59f004198e5b9ad0c12192e3 data/tutorialmod/loot_tables/blocks/potted_dahlia.json
 4bf0bfaf4e6545bdaa95f0e9a62a72e5b62bb9d0 data/tutorialmod/loot_tables/blocks/ruby_stairs.json
 03a3b82f1a2fb709266d0911c5987cde08a8ef10 data/tutorialmod/loot_tables/blocks/end_stone_ruby_ore.json
