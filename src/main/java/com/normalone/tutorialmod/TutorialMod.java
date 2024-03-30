@@ -15,7 +15,6 @@ import com.normalone.tutorialmod.util.ModLootTableModifiers;
 import com.normalone.tutorialmod.villager.ModVillagers;
 import com.normalone.tutorialmod.world.gen.ModWorldGeneration;
 import com.normalone.tutorialmod.world.tree.ModFoliagePlacerTypes;
-import com.normalone.tutorialmod.world.tree.ModTrunkPlacerTypes;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -44,7 +43,6 @@ public class TutorialMod implements ModInitializer {
 		ModRecipes.registerRecipes();
 		ModBoats.registerBoats();
 		ModWorldGeneration.generateModWorldGen();
-		ModTrunkPlacerTypes.register();
 		ModFoliagePlacerTypes.register();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);

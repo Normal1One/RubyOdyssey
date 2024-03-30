@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-30T14:57:52.34797	TutorialMod/Recipes
+// 1.20.4	2024-03-30T15:32:48.101292	TutorialMod/Recipes
 a49897b88c1341a07e1dc9d36acbf7b027fd661a data/tutorialmod/advancements/recipes/tools/ruby_shovel.json
 92cee1a8b0cd253c5b4b7a3e5bfbfc2913a2f2ab data/tutorialmod/advancements/recipes/combat/ruby_sword.json
 ad4fb9768453cd659621795a88736eb9308abfc5 data/tutorialmod/recipes/chestnut_hanging_sign.json
@@ -74,8 +74,8 @@ a05c9e7725719764a39c38dfff69d266c36b857e data/tutorialmod/advancements/recipes/r
 9b458a489cfd42cb04fa6ba6c4212e48360cc579 data/tutorialmod/recipes/ruby_block.json
 c2343a9c8d60f5709fcedb2926c2e259e18b03e7 data/tutorialmod/recipes/chestnut_sign.json
 fadc3e6a5e233fedbfb7aac146d971c6673ea80f data/tutorialmod/recipes/ruby_pressure_plate.json
-ea3f2fa9245d18a2803d0eb21c54bec74d0924df data/tutorialmod/recipes/ruby_from_blasting_raw_ruby.json
 f44a020805f68e57af1ec2cdf9c08d65a0a2493e data/tutorialmod/recipes/ruby_from_blasting_nether_ruby_ore.json
-f87c6a49f3ac88236e9ea9ef685651b60b6103e9 data/tutorialmod/recipes/ruby_boots.json
+ea3f2fa9245d18a2803d0eb21c54bec74d0924df data/tutorialmod/recipes/ruby_from_blasting_raw_ruby.json
 a320df94bf406ee8bbb9f7d3fb69cbc57af1b0a1 data/tutorialmod/recipes/ruby_wall.json
+f87c6a49f3ac88236e9ea9ef685651b60b6103e9 data/tutorialmod/recipes/ruby_boots.json
 7594af63c1701742dae2ed9fe5db707fcff219e3 data/tutorialmod/recipes/ruby_helmet.json

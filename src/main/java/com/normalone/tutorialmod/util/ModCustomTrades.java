@@ -26,8 +26,8 @@ public class ModCustomTrades {
         });
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 2, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.GOLD_INGOT, 16),
-                    new ItemStack(Items.DIAMOND, 12),
+                    new ItemStack(Items.GOLD_NUGGET, 16),
+                    new ItemStack(ModItems.TOMATO_SEEDS, 1),
                     new ItemStack(ModItems.CORN_SEEDS, 1),
                     2, 7, 0.075f));
         });
@@ -39,26 +39,39 @@ public class ModCustomTrades {
         });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(ModItems.CORN, 32),
-                    new ItemStack(ModBlocks.SOUND_BLOCK, 2),
+                    new ItemStack(ModItems.CORN, 16),
+                    new ItemStack(ModBlocks.SOUND_BLOCK, 1),
                     3, 12, 0.075f));
         });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.SOUND_MASTER, 2, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(ModItems.RUBY_SWORD, 1),
-                    new ItemStack(ModItems.RUBY_HELMET, 1),
+                    new ItemStack(ModItems.RUBY, 8),
+                    new ItemStack(ModItems.BAR_BRAWL_MUSIC_DISC, 1),
                     3, 12, 0.075f));
         });
         TradeOfferHelper.registerWanderingTraderOffers( 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
                     new ItemStack(ModItems.RAW_RUBY, 1),
-                    new ItemStack(ModItems.COAL_BRIQUETTE, 1),
+                    new ItemStack(ModItems.COAL_BRIQUETTE, 10),
                     1, 12, 0.075f));
         });
-        TradeOfferHelper.registerWanderingTraderOffers( 2, factories -> {
+        TradeOfferHelper.registerWanderingTraderOffers( 1, factories -> {
             factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(ModItems.RAW_RUBY, 16),
-                    new ItemStack(ModItems.METAL_DETECTOR, 1),
+                    new ItemStack(ModItems.RAW_RUBY, 8),
+                    new ItemStack(ModBlocks.SOUND_BLOCK, 1),
+                    1, 12, 0.075f));
+        });
+        TradeOfferHelper.registerWanderingTraderOffers( 1, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(ModItems.TOMATO, 4),
+                    new ItemStack(ModItems.DICE, 16),
+                    1, 12, 0.075f));
+        });
+        TradeOfferHelper.registerWanderingTraderOffers( 1, factories -> {
+            factories.add((entity, random) -> new TradeOffer(
+                    new ItemStack(Items.DIAMOND, 4),
+                    new ItemStack(ModItems.RUBY, 16),
+                    new ItemStack(ModItems.RUBY_STAFF, 1),
                     1, 12, 0.075f));
         });
     }

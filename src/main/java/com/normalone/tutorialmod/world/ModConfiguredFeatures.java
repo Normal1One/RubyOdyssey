@@ -3,7 +3,6 @@ package com.normalone.tutorialmod.world;
 import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.world.tree.custom.ChestnutFoliagePlacer;
-import com.normalone.tutorialmod.world.tree.custom.ChestnutTrunkPlacer;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -17,6 +16,7 @@ import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 import java.util.List;
 
@@ -49,7 +49,7 @@ public class ModConfiguredFeatures {
 
         register(context, CHESTNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
-                new ChestnutTrunkPlacer(5, 4, 3),
+                new StraightTrunkPlacer(3, 2, 1),
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
                 new ChestnutFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
                 new TwoLayersFeatureSize(1, 0, 2)).build());

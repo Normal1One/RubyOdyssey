@@ -59,9 +59,9 @@ public class TutorialModClient implements ClientModInitializer {
 
         CustomPortalBuilder.beginPortal()
                 .frameBlock(ModBlocks.RUBY_BLOCK)
-                .lightWithItem(ModItems.CORN)
+                .lightWithItem(ModItems.RUBY_STAFF)
                 .destDimID(new Identifier(TutorialMod.MOD_ID, "normalonedim"))
-                .tintColor(0xc76efa)
+                .tintColor(0xf84134)
                 .registerPortal();
     }
 }
