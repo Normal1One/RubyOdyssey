@@ -6,6 +6,9 @@
 name: build
 on: [pull_request, push]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     strategy:
@@ -39,3 +42,9 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
+      - name: publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: QC1VOmn8
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          github-token: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
