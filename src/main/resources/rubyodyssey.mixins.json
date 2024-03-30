@@ -2,10 +2,6 @@
 	"required": true,
 	"package": "com.normalone.rubyodyssey.mixin",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin",
-		"FoliagePlacerTypeInvoker"
-	],
 	"client": [
 		"ItemRendererAccessor",
 		"ItemRendererMixin",

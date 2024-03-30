@@ -14,7 +14,6 @@ import com.normalone.rubyodyssey.util.ModCustomTrades;
 import com.normalone.rubyodyssey.util.ModLootTableModifiers;
 import com.normalone.rubyodyssey.villager.ModVillagers;
 import com.normalone.rubyodyssey.world.gen.ModWorldGeneration;
-import com.normalone.rubyodyssey.world.tree.ModFoliagePlacerTypes;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
@@ -43,7 +42,6 @@ public class TutorialMod implements ModInitializer {
 		ModRecipes.registerRecipes();
 		ModBoats.registerBoats();
 		ModWorldGeneration.generateModWorldGen();
-		ModFoliagePlacerTypes.register();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());

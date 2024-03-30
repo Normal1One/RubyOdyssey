@@ -2,7 +2,6 @@ package com.normalone.rubyodyssey.world;
 
 import com.normalone.rubyodyssey.TutorialMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
-import com.normalone.rubyodyssey.world.tree.custom.ChestnutFoliagePlacer;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
@@ -15,6 +14,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
@@ -49,10 +49,10 @@ public class ModConfiguredFeatures {
 
         register(context, CHESTNUT_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LOG),
-                new StraightTrunkPlacer(3, 2, 1),
+                new StraightTrunkPlacer(4, 2, 0),
                 BlockStateProvider.of(ModBlocks.CHESTNUT_LEAVES),
-                new ChestnutFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+                new TwoLayersFeatureSize(1, 0, 1)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {

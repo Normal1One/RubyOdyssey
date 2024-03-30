@@ -1,7 +1,7 @@
-// 1.20.4	2024-03-30T15:55:14.354477	Ruby Odyssey/Tags for minecraft:item
-dca9c15329408b05e4df7f20ad09fe490b5c007e data/minecraft/tags/items/trimmable_armor.json
+// 1.20.4	2024-03-30T17:04:36.378875	Ruby Odyssey/Tags for minecraft:item
+7d896b1ae550d8d6b114936ad433499020516da9 data/minecraft/tags/items/music_discs.json
+7d896b1ae550d8d6b114936ad433499020516da9 data/minecraft/tags/items/creeper_drop_music_discs.json
+9cb3c2aec7735574068ab067a2906ea53df28846 data/rubyodyssey/tags/items/chestnut_logs.json
 545d62093798c5ef18cd787e7e0b5db9d0839067 data/minecraft/tags/items/planks.json
 9cb3c2aec7735574068ab067a2906ea53df28846 data/minecraft/tags/items/logs_that_burn.json
-7d896b1ae550d8d6b114936ad433499020516da9 data/minecraft/tags/items/music_discs.json
-9cb3c2aec7735574068ab067a2906ea53df28846 data/rubyodyssey/tags/items/chestnut_logs.json
-7d896b1ae550d8d6b114936ad433499020516da9 data/minecraft/tags/items/creeper_drop_music_discs.json
+dca9c15329408b05e4df7f20ad09fe490b5c007e data/minecraft/tags/items/trimmable_armor.json
