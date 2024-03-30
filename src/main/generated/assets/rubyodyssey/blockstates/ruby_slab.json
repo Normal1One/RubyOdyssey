@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubyodyssey:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "rubyodyssey:block/ruby_block"
+    },
+    "type=top": {
+      "model": "rubyodyssey:block/ruby_slab_top"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "rubyodyssey:block/dice_1"
+    },
+    "number=north": {
+      "model": "rubyodyssey:block/dice_2"
+    },
+    "number=east": {
+      "model": "rubyodyssey:block/dice_3"
+    },
+    "number=south": {
+      "model": "rubyodyssey:block/dice_5"
+    },
+    "number=west": {
+      "model": "rubyodyssey:block/dice_4"
+    },
+    "number=down": {
+      "model": "rubyodyssey:block/dice_6"
+    }
+  }
+}

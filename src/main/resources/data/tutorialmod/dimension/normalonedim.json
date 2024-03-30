@@ -1,5 +1,5 @@
 {
-  "type": "tutorialmod:normalonedim_type",
+  "type": "rubyodyssey:normalonedim_type",
   "generator": {
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
@@ -19,7 +19,7 @@
           }
         },
         {
-          "biome": "tutorialmod:test_biome",
+          "biome": "rubyodyssey:test_biome",
           "parameters": {
             "temperature": 0,
             "humidity": 0.15,

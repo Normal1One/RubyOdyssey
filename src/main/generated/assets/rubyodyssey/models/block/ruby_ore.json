@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rubyodyssey:block/ruby_ore"
+  }
+}

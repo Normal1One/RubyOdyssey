@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "rubyodyssey:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "R",
+    "R",
+    "S"
+  ],
+  "result": {
+    "item": "rubyodyssey:ruby_sword"
+  }
+}

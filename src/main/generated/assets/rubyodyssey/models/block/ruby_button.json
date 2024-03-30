@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "rubyodyssey:block/ruby_block"
+  }
+}

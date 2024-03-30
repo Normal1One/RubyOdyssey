@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "rubyodyssey:block/dice_6",
+    "down": "rubyodyssey:block/dice_1",
+    "north": "rubyodyssey:block/dice_2",
+    "east": "rubyodyssey:block/dice_4",
+    "south": "rubyodyssey:block/dice_5",
+    "west": "rubyodyssey:block/dice_3",
+    "particle": "rubyodyssey:block/dice_6"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "rubyodyssey:ruby_block"
+    }
+  },
+  "pattern": [
+    "R"
+  ],
+  "result": {
+    "item": "rubyodyssey:ruby_button"
+  }
+}

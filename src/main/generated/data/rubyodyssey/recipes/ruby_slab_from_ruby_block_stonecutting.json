@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "rubyodyssey:ruby_block"
+  },
+  "result": "rubyodyssey:ruby_slab"
+}

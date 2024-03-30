@@ -1,38 +1,38 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "rubyodyssey",
 	"version": "${version}",
-	"name": "TutorialMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Ruby Odyssey",
+	"description": "Rubies and Beyond!",
 	"authors": [
 		"NormalOne"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "...",
+		"sources": "https://github.com/Normal1One/tutorialmod-template-1.20.4"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/rubyodyssey/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.normalone.tutorialmod.TutorialMod"
+			"com.normalone.rubyodyssey.TutorialMod"
 		],
 		"client": [
-			"com.normalone.tutorialmod.TutorialModClient"
+			"com.normalone.rubyodyssey.TutorialModClient"
 		],
 		"fabric-datagen": [
-			"com.normalone.tutorialmod.TutorialModDataGenerator"
+			"com.normalone.rubyodyssey.TutorialModDataGenerator"
 		],
 		"rei_client": [
-			"com.normalone.tutorialmod.compat.TutorialModREIClientPlugin"
+			"com.normalone.rubyodyssey.compat.TutorialModREIClientPlugin"
 		],
 		"terrablender": [
-			"com.normalone.tutorialmod.world.biome.ModTerrablenderAPI"
+			"com.normalone.rubyodyssey.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"rubyodyssey.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

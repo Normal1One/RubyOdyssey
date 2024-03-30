@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rubyodyssey:block/ruby_block",
+    "side": "rubyodyssey:block/ruby_block",
+    "top": "rubyodyssey:block/ruby_block"
+  }
+}

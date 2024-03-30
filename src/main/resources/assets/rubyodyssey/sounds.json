@@ -1,0 +1,46 @@
+{
+  "metal_detector_found_ore": {
+    "subtitle": "sounds.rubyodyssey.metal_detector_found_ore",
+    "sounds": [
+      "rubyodyssey:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "rubyodyssey.sound_block_break",
+    "sounds": [
+      "rubyodyssey:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "rubyodyssey.sound_block_step",
+    "sounds": [
+      "rubyodyssey:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "rubyodyssey.sound_block_place",
+    "sounds": [
+      "rubyodyssey:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "rubyodyssey.sound_block_hit",
+    "sounds": [
+      "rubyodyssey:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "rubyodyssey.sound_block_fall",
+    "sounds": [
+      "rubyodyssey:sound_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "rubyodyssey:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

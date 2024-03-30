@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "rubyodyssey:ruby"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "R R"
+  ],
+  "result": {
+    "item": "rubyodyssey:ruby_helmet"
+  }
+}

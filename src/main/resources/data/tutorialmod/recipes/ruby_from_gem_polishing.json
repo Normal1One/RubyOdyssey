@@ -1,12 +1,12 @@
 {
-  "type": "tutorialmod:gem_polishing",
+  "type": "rubyodyssey:gem_polishing",
   "ingredients": [
     {
-      "item": "tutorialmod:raw_ruby"
+      "item": "rubyodyssey:raw_ruby"
     }
   ],
   "output": {
-    "item": "tutorialmod:ruby",
+    "item": "rubyodyssey:ruby",
     "count": 3
   }
 }

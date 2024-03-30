@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rubyodyssey:block/stripped_chestnut_log",
+    "side": "rubyodyssey:block/stripped_chestnut_log"
+  }
+}
