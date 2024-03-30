@@ -1,4 +1,4 @@
-// 1.20.4	2024-03-29T15:46:21.465373	TutorialMod/Block Loot Tables
+// 1.20.4	2024-03-30T14:57:52.348903	TutorialMod/Block Loot Tables
 a77a150c7851fbaf830081a89b0e3371ad62225d data/tutorialmod/loot_tables/blocks/ruby_fence_gate.json
 7aa7decec75c884a168a193b073d9dbce7e37408 data/tutorialmod/loot_tables/blocks/ruby_trapdoor.json
 865399c15f94da491a91fa8bc983868706016198 data/tutorialmod/loot_tables/blocks/ruby_wall.json
@@ -12,6 +12,7 @@ af40d80306717301f6cc60b19c082a4df9ad8c1e data/tutorialmod/loot_tables/blocks/che
 3f950c6a949fc7757f6ee79a0dc95e652cf721fa data/tutorialmod/loot_tables/blocks/ruby_ore.json
 8fb6c58892093a4f3b3cfb425b862efcdedcc873 data/tutorialmod/loot_tables/blocks/nether_ruby_ore.json
 a037b1a8ca349202b6cee6a612fafcebb8480fb0 data/tutorialmod/loot_tables/blocks/chestnut_sapling.json
+417ca58e53233631e25d17b6f892f2d898fe5ba8 data/tutorialmod/loot_tables/blocks/potted_chestnut_sapling.json
 687f631f91b0e987dfd695cafb332313d44b8539 data/tutorialmod/loot_tables/blocks/chestnut_leaves.json
 b3340c719a7e5b717cd9ccf26d03d2932423aeff data/tutorialmod/loot_tables/blocks/chestnut_wood.json
 e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data/tutorialmod/loot_tables/blocks/ruby_block.json

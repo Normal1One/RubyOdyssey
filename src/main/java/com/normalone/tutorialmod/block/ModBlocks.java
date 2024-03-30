@@ -82,6 +82,8 @@ public class ModBlocks {
 
     public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
             new SaplingBlock(ModSaplingGenerators.CHESTNUT, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+    public static final Block POTTED_CHESTNUT_SAPLING = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_chestnut_sapling"),
+            new FlowerPotBlock(CHESTNUT_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).nonOpaque()));
 
     public static final Block CHESTNUT_PLANKS = registerBlock("chestnut_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));

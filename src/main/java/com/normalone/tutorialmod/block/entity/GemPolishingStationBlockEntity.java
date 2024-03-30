@@ -1,6 +1,5 @@
 package com.normalone.tutorialmod.block.entity;
 
-import com.normalone.tutorialmod.item.ModItems;
 import com.normalone.tutorialmod.recipe.GemPolishingRecipe;
 import com.normalone.tutorialmod.screen.GemPolishingScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;

@@ -1,9 +1,11 @@
 package com.normalone.tutorialmod.datagen;
 
+import com.normalone.tutorialmod.TutorialMod;
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -61,10 +63,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL);
 
-        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+        getOrCreateTagBuilder(ModTags.Blocks.CHESTNUT_LOGS)
                 .add(ModBlocks.CHESTNUT_LOG)
                 .add(ModBlocks.CHESTNUT_WOOD)
                 .add(ModBlocks.STRIPPED_CHESTNUT_LOG)
                 .add(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .addTag(ModTags.Blocks.CHESTNUT_LOGS);
     }
 }

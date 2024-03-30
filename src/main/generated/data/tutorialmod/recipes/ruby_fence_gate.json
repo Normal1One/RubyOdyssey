@@ -1,20 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
+    "B": {
+      "item": "tutorialmod:ruby_block"
+    },
     "R": {
       "item": "tutorialmod:ruby"
-    },
-    "S": {
-      "item": "minecraft:stone"
     }
   },
   "pattern": [
-    "SSS",
-    "SRS",
-    "SSS"
+    "RBR",
+    "RBR"
   ],
   "result": {
-    "item": "tutorialmod:raw_ruby"
+    "item": "tutorialmod:ruby_fence_gate"
   }
 }

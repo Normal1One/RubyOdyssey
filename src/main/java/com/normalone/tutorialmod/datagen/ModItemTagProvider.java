@@ -2,6 +2,7 @@ package com.normalone.tutorialmod.datagen;
 
 import com.normalone.tutorialmod.block.ModBlocks;
 import com.normalone.tutorialmod.item.ModItems;
+import com.normalone.tutorialmod.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -27,6 +28,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.CHESTNUT_PLANKS.asItem());
+
+        getOrCreateTagBuilder(ModTags.Items.CHESTNUT_LOGS)
+                .add(ModBlocks.CHESTNUT_LOG.asItem())
+                .add(ModBlocks.CHESTNUT_WOOD.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_LOG.asItem())
+                .add(ModBlocks.STRIPPED_CHESTNUT_WOOD.asItem());
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.CHESTNUT_LOG.asItem())

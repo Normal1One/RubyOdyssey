@@ -26,15 +26,15 @@ public class ModItems {
     public static final Item RUBY_STAFF = registerItem("ruby_staff", new Item(new FabricItemSettings().maxCount(1)));
 
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
-            new PickaxeItem(ModToolMaterial.RUBY, 2, 2f, new FabricItemSettings()));
+            new PickaxeItem(ModToolMaterial.RUBY, 2, 1f, new FabricItemSettings()));
     public static final Item RUBY_AXE = registerItem("ruby_axe",
             new AxeItem(ModToolMaterial.RUBY, 3, 1f, new FabricItemSettings()));
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
-            new ShovelItem(ModToolMaterial.RUBY, 0, 0f, new FabricItemSettings()));
+            new ShovelItem(ModToolMaterial.RUBY, 0, 1f, new FabricItemSettings()));
     public static final Item RUBY_HOE = registerItem("ruby_hoe",
-            new HoeItem(ModToolMaterial.RUBY, 9, 9f, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.RUBY, 2, 1f, new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, 5, 3f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.RUBY, 5, 1f, new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
             new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
