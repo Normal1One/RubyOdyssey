@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.world.biome;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.entity.ModEntities;
 import com.normalone.rubyodyssey.sound.ModSounds;
 import net.minecraft.client.sound.MusicType;
@@ -21,11 +21,11 @@ import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 
 public class ModBiomes {
-    public static final RegistryKey<Biome> TEST_BIOME = RegistryKey.of(RegistryKeys.BIOME,
-            new Identifier(TutorialMod.MOD_ID, "test_biome"));
+    public static final RegistryKey<Biome> RUBY_BIOME = RegistryKey.of(RegistryKeys.BIOME,
+            new Identifier(RubyOdysseyMod.MOD_ID, "ruby_biome"));
 
     public static void bootstrap(Registerable<Biome> context) {
-        context.register(TEST_BIOME, testBiome(context));
+        context.register(RUBY_BIOME, testBiome(context));
     }
 
     public static void globalOverworldGeneration(GenerationSettings.LookupBackedBuilder builder) {

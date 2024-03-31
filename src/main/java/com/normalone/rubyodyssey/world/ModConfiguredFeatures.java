@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.world;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
@@ -56,7 +56,7 @@ public class ModConfiguredFeatures {
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {
-        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(TutorialMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(RubyOdysseyMod.MOD_ID, name));
     }
 
     public static <FC extends FeatureConfig, F extends Feature<FC>> void register(Registerable<ConfiguredFeature<?, ?>> context,

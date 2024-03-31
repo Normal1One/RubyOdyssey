@@ -1,8 +1,8 @@
 package com.normalone.rubyodyssey.compat;
 
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
-import com.normalone.rubyodyssey.TutorialMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import me.shedaniel.rei.api.client.gui.Renderer;
 import me.shedaniel.rei.api.client.gui.widgets.Widget;
@@ -18,8 +18,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class GemPolishingCategory implements DisplayCategory<BasicDisplay> {
-    public static final Identifier TEXTURE = new Identifier(TutorialMod.MOD_ID, "textures/gui/gem_polishing_station_gui.png");
-    public static final CategoryIdentifier<GemPolishingDisplay> GEM_POLISHING = CategoryIdentifier.of(TutorialMod.MOD_ID, "gem_polishing");
+    public static final Identifier TEXTURE = new Identifier(RubyOdysseyMod.MOD_ID, "textures/gui/gem_polishing_station_gui.png");
+    public static final CategoryIdentifier<GemPolishingDisplay> GEM_POLISHING = CategoryIdentifier.of(RubyOdysseyMod.MOD_ID, "gem_polishing");
 
     @Override
     public CategoryIdentifier<? extends BasicDisplay> getCategoryIdentifier() {

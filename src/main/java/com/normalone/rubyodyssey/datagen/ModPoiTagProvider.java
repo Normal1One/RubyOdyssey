@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.datagen;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import net.minecraft.data.DataOutput;
 import net.minecraft.data.server.tag.TagProvider;
 import net.minecraft.registry.RegistryKeys;
@@ -19,6 +19,6 @@ public class ModPoiTagProvider extends TagProvider<PointOfInterestType> {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup lookup) {
         this.getOrCreateTagBuilder(PointOfInterestTypeTags.ACQUIRABLE_JOB_SITE)
-                .addOptional(new Identifier(TutorialMod.MOD_ID, "soundpoi"));
+                .addOptional(new Identifier(RubyOdysseyMod.MOD_ID, "soundpoi"));
     }
 }

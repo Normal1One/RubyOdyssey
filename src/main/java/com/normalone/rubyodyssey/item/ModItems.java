@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.item;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import com.normalone.rubyodyssey.entity.ModBoats;
 import com.normalone.rubyodyssey.entity.ModEntities;
@@ -77,11 +77,11 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(RubyOdysseyMod.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        TutorialMod.LOGGER.info("Registering Mod Items for " + TutorialMod.MOD_ID);
+        RubyOdysseyMod.LOGGER.info("Registering Mod Items for " + RubyOdysseyMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }

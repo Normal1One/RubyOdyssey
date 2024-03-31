@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.world.dimension;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -15,12 +15,12 @@ import net.minecraft.world.dimension.DimensionTypes;
 import java.util.OptionalLong;
 
 public class ModDimensions {
-    public static final RegistryKey<DimensionOptions> NORMALONEDIM_KEY = RegistryKey.of(RegistryKeys.DIMENSION,
-            new Identifier(TutorialMod.MOD_ID, "normalonedim"));
-    public static final RegistryKey<World> NORMALONEDIM_LEVEL_KEY = RegistryKey.of(RegistryKeys.WORLD,
-            new Identifier(TutorialMod.MOD_ID, "normalonedim"));
+    public static final RegistryKey<DimensionOptions> RUBYDIM_KEY = RegistryKey.of(RegistryKeys.DIMENSION,
+            new Identifier(RubyOdysseyMod.MOD_ID, "rubydim"));
+    public static final RegistryKey<World> RUBYDIM_LEVEL_KEY = RegistryKey.of(RegistryKeys.WORLD,
+            new Identifier(RubyOdysseyMod.MOD_ID, "rubydim"));
     public static final RegistryKey<DimensionType> NORMALONE_DIM_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
-            new Identifier(TutorialMod.MOD_ID, "normalonedim_type"));
+            new Identifier(RubyOdysseyMod.MOD_ID, "rubydim_type"));
 
     public static void bootstrapType(Registerable<DimensionType> context) {
         context.register(NORMALONE_DIM_TYPE, new DimensionType(

@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.entity;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import com.normalone.rubyodyssey.item.ModItems;
 import com.terraformersmc.terraform.boat.api.TerraformBoatType;
@@ -10,8 +10,8 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
 public class ModBoats {
-    public static final Identifier CHESTNUT_BOAT_ID = new Identifier(TutorialMod.MOD_ID, "chestnut_boat");
-    public static final Identifier CHESTNUT_CHEST_BOAT_ID = new Identifier(TutorialMod.MOD_ID, "chestnut_chest_boat");
+    public static final Identifier CHESTNUT_BOAT_ID = new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_boat");
+    public static final Identifier CHESTNUT_CHEST_BOAT_ID = new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_chest_boat");
 
     public static final RegistryKey<TerraformBoatType> CHESTNUT_BOAT_KEY = TerraformBoatTypeRegistry.createKey(CHESTNUT_BOAT_ID);
 

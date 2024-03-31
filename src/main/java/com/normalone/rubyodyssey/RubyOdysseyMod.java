@@ -23,7 +23,7 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class TutorialMod implements ModInitializer {
+public class RubyOdysseyMod implements ModInitializer {
 	public static final String MOD_ID = "rubyodyssey";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

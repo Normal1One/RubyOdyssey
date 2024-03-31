@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.util;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -13,7 +13,7 @@ public class ModTags {
         public static final TagKey<Block> CHESTNUT_LOGS = createTag("chestnut_logs");
 
         public static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, new Identifier(TutorialMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, name));
         }
     }
 
@@ -21,7 +21,7 @@ public class ModTags {
         public static final TagKey<Item> CHESTNUT_LOGS = createTag("chestnut_logs");
 
         public static TagKey<Item> createTag(String name) {
-            return TagKey.of(RegistryKeys.ITEM, new Identifier(TutorialMod.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, new Identifier(RubyOdysseyMod.MOD_ID, name));
         }
     }
 }

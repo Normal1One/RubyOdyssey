@@ -1,7 +1,7 @@
 package com.normalone.rubyodyssey.villager;
 
 import com.google.common.collect.ImmutableSet;
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
@@ -21,20 +21,20 @@ public class ModVillagers {
     public static final VillagerProfession SOUND_MASTER = registerProfession("sound_master", SOUND_POI_KEY);
 
     private static VillagerProfession registerProfession(String name, RegistryKey<PointOfInterestType> type) {
-        return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(TutorialMod.MOD_ID, name),
+        return Registry.register(Registries.VILLAGER_PROFESSION, new Identifier(RubyOdysseyMod.MOD_ID, name),
                 new VillagerProfession(name, entry -> entry.matchesKey(type), entry -> entry.matchesKey(type),
                         ImmutableSet.of(), ImmutableSet.of(), SoundEvents.ENTITY_VILLAGER_WORK_SHEPHERD));
     }
 
     private static PointOfInterestType registerPoi(String name, Block block) {
-        return PointOfInterestHelper.register(new Identifier(TutorialMod.MOD_ID, name), 1, 1, block);
+        return PointOfInterestHelper.register(new Identifier(RubyOdysseyMod.MOD_ID, name), 1, 1, block);
     }
 
     private static RegistryKey<PointOfInterestType> poiKey(String name) {
-        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, new Identifier(TutorialMod.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, new Identifier(RubyOdysseyMod.MOD_ID, name));
     }
 
     public static void registerVillagers() {
-        TutorialMod.LOGGER.info("Registering Villagers " + TutorialMod.MOD_ID);
+        RubyOdysseyMod.LOGGER.info("Registering Villagers " + RubyOdysseyMod.MOD_ID);
     }
 }

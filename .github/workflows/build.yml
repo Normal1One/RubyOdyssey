@@ -32,9 +32,7 @@ jobs:
           github-token: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
           files: |
             build/libs/!(*-@(dev|sources|javadoc)).jar
-          name: Ruby Odyssey 0.0.2 for Minecraft 1.20.4
-          version: 0.0.2-1.20.4
-          version-type: beta
+          name: Ruby Odyssey 0.0.3 for Minecraft 1.20.4
           loaders: |
             fabric
             quilt

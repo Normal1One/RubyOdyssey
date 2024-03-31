@@ -9,26 +9,23 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/ruby-odyssey",
-		"sources": "https://github.com/Normal1One/tutorialmod-template-1.20.4"
+		"sources": "https://github.com/Normal1One/RubyOdyssey"
 	},
 	"license": "MIT",
 	"icon": "assets/rubyodyssey/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.normalone.rubyodyssey.TutorialMod"
+			"com.normalone.rubyodyssey.RubyOdysseyMod"
 		],
 		"client": [
-			"com.normalone.rubyodyssey.TutorialModClient"
+			"com.normalone.rubyodyssey.RubyOdysseyModClient"
 		],
 		"fabric-datagen": [
-			"com.normalone.rubyodyssey.TutorialModDataGenerator"
+			"com.normalone.rubyodyssey.RubyOdysseyModDataGenerator"
 		],
 		"rei_client": [
-			"com.normalone.rubyodyssey.compat.TutorialModREIClientPlugin"
-		],
-		"terrablender": [
-			"com.normalone.rubyodyssey.world.biome.ModTerrablenderAPI"
+			"com.normalone.rubyodyssey.compat.RubyOdysseyModREIClientPlugin"
 		]
 	},
 	"mixins": [

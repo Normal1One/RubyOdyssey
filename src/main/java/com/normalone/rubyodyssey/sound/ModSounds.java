@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.sound;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -23,11 +23,11 @@ public class ModSounds {
             ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);
 
     private static SoundEvent registerSoundEvent(String name) {
-        Identifier id = new Identifier(TutorialMod.MOD_ID, name);
+        Identifier id = new Identifier(RubyOdysseyMod.MOD_ID, name);
         return Registry.register(Registries.SOUND_EVENT, id, SoundEvent.of(id));
     }
 
     public static void registerSounds() {
-        TutorialMod.LOGGER.info("Registering Sounds for " + TutorialMod.MOD_ID);
+        RubyOdysseyMod.LOGGER.info("Registering Sounds for " + RubyOdysseyMod.MOD_ID);
     }
 }

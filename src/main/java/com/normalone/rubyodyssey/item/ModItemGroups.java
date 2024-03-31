@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.item;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TutorialMod.MOD_ID, "ruby"),
+            new Identifier(RubyOdysseyMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY))
                     .entries((displayContext, entries) -> {
@@ -87,6 +87,6 @@ public class ModItemGroups {
                 }).build());
 
     public static void registerItemGroups() {
-        TutorialMod.LOGGER.info("Registering Item Groups for " + TutorialMod.MOD_ID);
+        RubyOdysseyMod.LOGGER.info("Registering Item Groups for " + RubyOdysseyMod.MOD_ID);
     }
 }

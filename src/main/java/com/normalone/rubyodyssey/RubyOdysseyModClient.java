@@ -26,7 +26,7 @@ import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.client.util.SpriteIdentifier;
 import net.minecraft.util.Identifier;
 
-public class TutorialModClient implements ClientModInitializer {
+public class RubyOdysseyModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), ModBlocks.RUBY_DOOR);
@@ -60,7 +60,7 @@ public class TutorialModClient implements ClientModInitializer {
         CustomPortalBuilder.beginPortal()
                 .frameBlock(ModBlocks.RUBY_BLOCK)
                 .lightWithItem(ModItems.RUBY_STAFF)
-                .destDimID(new Identifier(TutorialMod.MOD_ID, "normalonedim"))
+                .destDimID(new Identifier(RubyOdysseyMod.MOD_ID, "rubydim"))
                 .tintColor(0xf84134)
                 .registerPortal();
     }

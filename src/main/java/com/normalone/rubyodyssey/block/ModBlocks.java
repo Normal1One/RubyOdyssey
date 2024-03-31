@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.block;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import com.normalone.rubyodyssey.block.custom.*;
 import com.normalone.rubyodyssey.sound.ModSounds;
 import com.normalone.rubyodyssey.world.tree.ModSaplingGenerators;
@@ -61,14 +61,14 @@ public class ModBlocks {
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(4, 7), FabricBlockSettings.copyOf(Blocks.END_STONE).strength(4f)));
 
-    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "tomato_crop"),
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
-    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "corn_crop"),
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "corn_crop"),
             new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     public static final Block DAHLIA = registerBlock("dahlia",
             new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 10, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
-    public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_dahlia"),
+    public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
     public static final Block CHESTNUT_LOG = registerBlock("chestnut_log",
@@ -82,7 +82,7 @@ public class ModBlocks {
 
     public static final Block CHESTNUT_SAPLING = registerBlock("chestnut_sapling",
             new SaplingBlock(ModSaplingGenerators.CHESTNUT, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
-    public static final Block POTTED_CHESTNUT_SAPLING = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "potted_chestnut_sapling"),
+    public static final Block POTTED_CHESTNUT_SAPLING = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "potted_chestnut_sapling"),
             new FlowerPotBlock(CHESTNUT_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).nonOpaque()));
 
     public static final Block CHESTNUT_PLANKS = registerBlock("chestnut_planks",
@@ -90,20 +90,20 @@ public class ModBlocks {
     public static final Block CHESTNUT_LEAVES = registerBlock("chestnut_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4f).nonOpaque()));
 
-    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "dice_block"),
+    public static final Block DICE_BLOCK = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "dice_block"),
             new DiceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
-    public static final Identifier CHESTNUT_SIGN_TEXTURE = new Identifier(TutorialMod.MOD_ID, "entity/signs/chestnut");
-    public static final Identifier CHESTNUT_HANGING_SIGN_TEXTURE = new Identifier(TutorialMod.MOD_ID, "entity/signs/hanging/chestnut");
-    public static final Identifier CHESTNUT_HANGING_GUI_SIGN_TEXTURE = new Identifier(TutorialMod.MOD_ID, "textures/gui/hanging_signs/chestnut");
+    public static final Identifier CHESTNUT_SIGN_TEXTURE = new Identifier(RubyOdysseyMod.MOD_ID, "entity/signs/chestnut");
+    public static final Identifier CHESTNUT_HANGING_SIGN_TEXTURE = new Identifier(RubyOdysseyMod.MOD_ID, "entity/signs/hanging/chestnut");
+    public static final Identifier CHESTNUT_HANGING_GUI_SIGN_TEXTURE = new Identifier(RubyOdysseyMod.MOD_ID, "textures/gui/hanging_signs/chestnut");
 
-    public static final Block CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "chestnut_sign"),
+    public static final Block CHESTNUT_SIGN = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_sign"),
             new TerraformSignBlock(CHESTNUT_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
-    public static final Block CHESTNUT_WALL_SIGN = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "chestnut_wall_sign"),
+    public static final Block CHESTNUT_WALL_SIGN = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_wall_sign"),
             new TerraformWallSignBlock(CHESTNUT_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN)));
-    public static final Block CHESTNUT_HANGING_SIGN = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "chestnut_hanging_sign"),
+    public static final Block CHESTNUT_HANGING_SIGN = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_hanging_sign"),
             new TerraformHangingSignBlock(CHESTNUT_HANGING_SIGN_TEXTURE, CHESTNUT_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN)));
-    public static final Block CHESTNUT_WALL_HANGING_SIGN = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "chestnut_wall_hanging_sign"),
+    public static final Block CHESTNUT_WALL_HANGING_SIGN = Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, "chestnut_wall_hanging_sign"),
             new TerraformWallHangingSignBlock(CHESTNUT_HANGING_SIGN_TEXTURE, CHESTNUT_HANGING_GUI_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN)));
 
     public static final BlockFamily CHESTNUT_FAMILY = BlockFamilies.register(ModBlocks.CHESTNUT_PLANKS)
@@ -112,14 +112,14 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(RubyOdysseyMod.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
+        return Registry.register(Registries.ITEM, new Identifier(RubyOdysseyMod.MOD_ID, name), new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerBlocks() {
-        TutorialMod.LOGGER.info("Registering ModBlocks for " + TutorialMod.MOD_ID);
+        RubyOdysseyMod.LOGGER.info("Registering ModBlocks for " + RubyOdysseyMod.MOD_ID);
     }
 }

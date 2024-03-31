@@ -1,6 +1,6 @@
 package com.normalone.rubyodyssey.item;
 
-import com.normalone.rubyodyssey.TutorialMod;
+import com.normalone.rubyodyssey.RubyOdysseyMod;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -63,7 +63,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return TutorialMod.MOD_ID + ":" + this.name;
+        return RubyOdysseyMod.MOD_ID + ":" + this.name;
     }
 
     @Override

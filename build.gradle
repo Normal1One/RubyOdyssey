@@ -21,7 +21,6 @@ repositories {
 		name = 'TerraformersMC'
 		url = 'https://maven.terraformersmc.com/'
 	}
-	maven { url = 'https://maven.minecraftforge.net/' }
 	maven {url = "https://maven.kyrptonaught.dev"}
 }
 
@@ -49,8 +48,6 @@ dependencies {
 
 	modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0"
 	include "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0"
-
-	modImplementation 'com.github.glitchfiend:TerraBlender-fabric:1.20.4-3.3.0.12'
 
 	modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20.4'
 	include 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20.4'
