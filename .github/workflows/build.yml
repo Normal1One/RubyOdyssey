@@ -24,15 +24,3 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
-      - name: Publish built JAR to Modrinth and GitHub
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          modrinth-id: QC1VOmn8
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-token: ${{ secrets.PACKAGES_GITHUB_TOKEN }}
-          files: |
-            build/libs/!(*-@(dev|sources|javadoc)).jar
-          name: Ruby Odyssey 0.0.3 for Minecraft 1.20.4
-          loaders: |
-            fabric
-            quilt
