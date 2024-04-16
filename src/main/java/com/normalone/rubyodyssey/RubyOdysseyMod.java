@@ -7,6 +7,7 @@ import com.normalone.rubyodyssey.entity.ModEntities;
 import com.normalone.rubyodyssey.entity.custom.PorcupineEntity;
 import com.normalone.rubyodyssey.item.ModItemGroups;
 import com.normalone.rubyodyssey.item.ModItems;
+import com.normalone.rubyodyssey.painting.ModPaintings;
 import com.normalone.rubyodyssey.recipe.ModRecipes;
 import com.normalone.rubyodyssey.screen.ModScreenHandlers;
 import com.normalone.rubyodyssey.sound.ModSounds;
@@ -41,6 +42,7 @@ public class RubyOdysseyMod implements ModInitializer {
 		ModScreenHandlers.registerScreenHandlers();
 		ModRecipes.registerRecipes();
 		ModBoats.registerBoats();
+		ModPaintings.registerPaintings();
 		ModWorldGeneration.generateModWorldGen();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
